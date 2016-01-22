@@ -10,7 +10,6 @@
 	<script type="text/javascript" src="./js/lib/angular.js"></script>
 	
 	<!-- Modules -->
-	<script type="text/javascript" src="./js/app.js"></script>
 	<script type="text/javascript" src="./js/category/category.js"></script>
 	
 	<!-- Controllers -->
@@ -21,8 +20,10 @@
 	
 </head>
 <body ng-app="Petshop">
+	
 	<div>
 		{{categoryList}}	
 	</div>
+		
 </body>
 </html>
